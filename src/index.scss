@@ -362,3 +362,14 @@ nav input{
     }
   }
 }
+.drop-euthrM4 svg {
+  font-size: 30px;
+  vertical-align: middle;
+  display: inline-block;
+  transition: all 0.2s ease-out;
+  font-weight: bold;
+}
+.drop-euthrM4:hover svg {
+  transition: all 0.2s ease-out;
+  transform: rotate(180deg);
+}
