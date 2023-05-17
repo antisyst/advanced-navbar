@@ -2,6 +2,7 @@ import { CiMenuBurger } from 'react-icons/ci';
 import { TfiClose } from 'react-icons/tfi';
 import NavBack from './assets/nav-back.svg';
 import Logo from './assets/logo';
+import { MdKeyboardArrowUp } from 'react-icons/md';
 
 export default function Navbar() {
     return(
@@ -19,7 +20,7 @@ export default function Navbar() {
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li>
-              <a href="#" className="desktop-item">Industries</a>
+              <a href="#" className="desktop-item drop-euthrM4">Industries <MdKeyboardArrowUp/></a>
               <input type="checkbox" id="showDrop" />
               <label htmlFor="showDrop" className="mobile-item">Industries</label>
               <ul className="drop-menu">
@@ -30,7 +31,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li>
-              <a href="#" className="desktop-item">Services</a>
+              <a href="#" className="desktop-item  drop-euthrM4">Services <MdKeyboardArrowUp/></a>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">Services</label>
               <div className="mega-box">
